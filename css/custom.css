@@ -1,0 +1,46 @@
+#home .ui-icon {
+    background: url("../img/53-house.png") no-repeat scroll 50% 50% / 48px 48px transparent;
+}
+
+#game .ui-icon {
+    background: url("../img/156-controlpad.png") no-repeat scroll 50% 50% / 48px 48px transparent;
+}
+
+#dice .ui-icon {
+    background: url("../img/130-dice.png") no-repeat scroll 50% 50% / 48px 48px transparent;
+}
+
+#leaderboard .ui-icon {
+    background: url("../img/85-trophy.png") no-repeat scroll 50% 50% / 48px 48px transparent;
+}
+
+#achievement .ui-icon {
+    background: url("../img/108-badge.png") no-repeat scroll 50% 50% / 48px 48px transparent;
+}
+
+.nav-glyphish-example .ui-btn .ui-icon {
+    border-radius: 0 0 0 0 !important;
+    box-shadow: none !important;
+    height: 40px !important;
+    margin-left: -20px !important;
+    width: 40px !important;
+}
+
+.nav-glyphish-example .ui-btn .ui-btn-inner {
+    padding-top: 45px !important;
+}
+
+.bubble {
+	background: linear-gradient(#fe6574, #FE2E2E) repeat scroll 0 0 #EEEEEE;
+	overflow: hidden;
+	padding: 2px 5px 1px 5px;
+	border: 2px solid #FFFFFF;
+    border-radius:1em 1em 1em 1em;
+    color: #FFFFFF;
+	text-shadow: 0 0px 0 #FFFFFF;
+    font-size: 11px;
+    float: right;
+    margin-top:-57px;
+    margin-right: 2px;
+    box-shadow: 2px 2px 2px #000000;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>jQuery Mobile Docs - Pages</title> 
+	<link rel="stylesheet"  href="css/custom.css" />
+	<link rel="stylesheet"  href="lib/jquery.mobile-1.3.0/jquery.mobile-1.3.0.css" />
+
+</head> 
+<body class="ui-mobile-viewport ui-overlay-c"> 
+
+	<div id="one" data-role="page" data-url="one" tabindex="0" >
+
+		<div data-role="header">
+			<h1>Jeux</h1>
+		</div><!-- /header -->
+
+		<div data-role="panel" id="mypanel">
+		    <!-- panel content goes here -->
+		</div><!-- /panel -->
+
+		<div data-role="content" class="ui-content" role="main">	
+			<div data-role="fieldcontain">
+				<p>
+					What is your favorite color?
+				</p>
+				<fieldset data-role="controlgroup">
+					<input type="radio" required="required" name="answer-1"
+						id="answer-1"
+						value="Red"
+						checked="checked"
+					/>
+					<label for="answer-1">Blue</label>
+					<input type="radio" required="required" name="answer-2"
+						id="answer-2"
+						value="Blue"
+						
+					/>
+					<label for="answer-2">Red</label>
+				</fieldset>
+			</div>
+			<p>
+				<a data-role="button" href="#" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b">Suivant</a>
+			</p>
+		</div><!-- /content -->
+		
+
+		<div data-theme="a" data-role="footer" data-position="fixed" class="nav-glyphish-example">
+			<div data-role="navbar">
+				<ul>
+					<li><a id="home" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="false" data-iconpos="top" data-transition="slide" data-direction="reverse" href="#two">Menu</a></li>
+					<li><a id="game" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="false" data-iconpos="top" data-transition="slide" href="#one" class="ui-btn-active ui-state-persist">Jeux</a></li>
+					<li>
+						<a id="dice" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="false" data-iconpos="top" href="#">Dés<span class="bubble">12</span></a></li>
+					<li><a id="leaderboard" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="false" data-iconpos="top" href="#">Classement<span class="bubble">1er</span></a></li>
+					<li><a id="achievement" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="false" data-iconpos="top" href="#">Bonus<span class="bubble">3</span></a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /footer -->
+	</div><!-- /page one -->
+
+
+	<!-- Start of second page: #two -->
+	<div id="two" data-role="page" data-url="two" tabindex="0" >
+		<div data-role="header">
+			<h1>Menu</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			<ul data-role="listview" data-inset="true" data-filter="false">
+				<li data-role="list-divider">
+					FastContest
+				</li>
+				<li data-icon="arrow-r">
+					<a href="#">Règles du jeux</a>
+				</li>
+				<li data-icon="arrow-r">
+					<a href="#">Twitter!</a>
+				</li>
+				<li data-icon="arrow-r">
+					<a href="#">Partager sur Facebook!</a>
+				</li>
+				<li data-icon="arrow-r">
+					<a href="#">Installer l'application iPhone</a>
+				</li>
+				<li data-icon="arrow-r">
+					<a href="#">Installer l'application Android</a>
+				</li>
+				<li data-icon="arrow-r">
+					<a href="#">Flasher le stand FastConnect</a>
+				</li>
+			</ul>
+		</div><!-- /content -->
+
+		<div data-theme="a" data-role="footer" data-position="fixed" class="nav-glyphish-example">
+			<div data-role="navbar">
+				<ul>
+					<li><a id="home" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="false" data-iconpos="top" data-transition="slide" data-direction="reverse" href="#two" class="ui-btn-active ui-state-persist">Menu</a></li>
+					<li><a id="game" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="false" data-iconpos="top" data-transition="slide" href="#one">Jeux</a></li>
+					<li><a id="dice" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="false" data-iconpos="top" href="#"><span id="dice-nb" class="ui-li-count ui-btn-up-c ui-btn-corner-all ">&nbsp;12&nbsp;</span>&nbsp;Dés</a></li>
+					<li><a id="leaderboard" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="false" data-iconpos="top" href="#">Classement</a></li>
+					<li><a id="achievement" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="false" data-iconpos="top" href="#">Bonus</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /footer -->
+	</div><!-- /page two -->
+
+
+	<script src="lib/jquery/jquery-1.9.0.min.js"></script>
+	<script src="lib/jquery.mobile-1.3.0/jquery.mobile-1.3.0.js"></script>
+	<script>
+		$(document).ready(function(){
+
+		});
+	</script>
+
+</body>
